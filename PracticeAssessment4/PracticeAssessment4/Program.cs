@@ -38,7 +38,6 @@ namespace PracticeAssessment4
                 Console.Write("To log in enter your name: ");
                 string name = Console.ReadLine();
 
-
                 foreach (var student in allStudents)
                 {
                     if (student.Name.ToLower() == name.ToLower())
@@ -68,14 +67,24 @@ namespace PracticeAssessment4
                             if (response == "a")
                             {
                                 Console.WriteLine("Who would you like to score?");
-                                string stuName = Console.ReadLine();
-                                Console.WriteLine($"What score would you like to assign {stuName}?");
-                                int.TryParse(Console.ReadLine(), out int stuScore);
-                                Console.WriteLine($"{stuScore} was added for {stuName}");
-
+                                string stuName = Console.ReadLine();                                                              
+                                
+                                //  Student found1 = rosterStudents.Where(x => x.Name.ToLower() == stuName.ToLower()).FirstOrDefault();
                                 Student found = rosterStudents.Find(x => x.Name.ToLower() == stuName.ToLower());
-                                // Student found1 = rosterStudents.Where(x => x.Name.ToLower() == stuName.ToLower()).FirstOrDefault();
-                                GradStudent.ScoreAStudent(found, stuScore);
+                                if(found != null)
+                                {
+                                    Console.WriteLine($"What score would you like to assign {stuName}?");
+                                    int.TryParse(Console.ReadLine(), out int stuScore);
+                                    GradStudent.ScoreAStudent(found, stuScore);
+                                    Console.WriteLine($"{stuScore} was added for {stuName}");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Wrong input.");
+                                }
+
+                                                            
+                               
                                 Console.WriteLine("Would you like to return to the login? (y/n)?");
                                 string choice = Console.ReadLine();
                                 if (choice == "y")
@@ -111,10 +120,12 @@ namespace PracticeAssessment4
                             }
                         }
                     }
+                    
                 }
+               
 
             }
-
+            Console.WriteLine("Wrong input.");
         }
 
        public static void PrintStudentMenu(Student s)
