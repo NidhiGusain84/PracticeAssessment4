@@ -1,0 +1,13 @@
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\bin\Debug\netcoreapp3.1\LINQ.exe
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\bin\Debug\netcoreapp3.1\LINQ.deps.json
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.json
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.dev.json
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\bin\Debug\netcoreapp3.1\LINQ.dll
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\bin\Debug\netcoreapp3.1\LINQ.pdb
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\obj\Debug\netcoreapp3.1\LINQ.csprojAssemblyReference.cache
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfoInputs.cache
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfo.cs
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\obj\Debug\netcoreapp3.1\LINQ.csproj.CoreCompileInputs.cache
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\obj\Debug\netcoreapp3.1\LINQ.dll
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\obj\Debug\netcoreapp3.1\LINQ.pdb
+C:\PracticeAssessment4\PracticeAssessment4\PracticeAssessment4\LINQ\obj\Debug\netcoreapp3.1\LINQ.genruntimeconfig.cache
